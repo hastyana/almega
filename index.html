@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html class="scroll-smooth hover:scroll-auto md:scroll-auto" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/image/logo.png">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-straight/css/uicons-regular-straight.css'>
+    <title>Almega Landing Page</title>
+</head>
+
+<body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="w-full z-10 top-0">
+        <div class="flex flex-wrap items-center justify-between mx-10 my-4 px-2 py-2 bg-white shadow-lg rounded-xl">
+            <div>
+                <a class="flex items-center text-gray-700 no-underline hover:no-underline" href="#hero">
+                    <img src="assets/image/logo.png" alt="logo" class="h-10 mr-3 sm:h-10">
+                    <!-- <span class="self-center text-lg font-semibold whitespace-nowrap transition-colors duration-300 transform hover:text-blue-800">Logo</span> -->
+                </a>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" id="menu-button" class="h-6 w-6 cursor-pointer md:hidden block text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        
+            <div class="hidden w-full md:flex md:items-center md:w-auto" id="menu">
+                <ul class=" pt-4 text-base font-semibold text-gray-700 md:flex md:justify-between md:pt-0">
+                    <li>
+                        <a class="md:p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-800 hover:text-underline" href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a class="md:p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-800 hover:text-underline" href="#bisnis">Bisnis</a>
+                    </li>
+                    <li>
+                        <a class="md:p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-800 hover:text-underline" href="#produk">Produk</a>
+                    </li>
+                    <li>
+                        <a class="md:p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-800 hover:text-underline" href="#register">Pendaftaran</a>
+                    </li>
+                    <li>
+                        <a class="md:p-4 py-2 block no-underline transition-colors duration-300 transform hover:text-green-800 hover:text-underline" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+     <!-- Video -->
+    <section id="hero" class="overflow-hidden sm:grid sm:grid-cols-2 px-10 pb-20 pt-10 items-center">
+        <div class="">
+            <div class="mr-10 ltr:sm:text-left rtl:sm:text-right">
+                <h1 class="text-3xl font-bold text-gray-900">
+                    Bergabunglah dengan Almega, Jadilah Bagian dari Komunitas Sukses dan Raih Impian Anda!
+                </h1>        
+                <p class="hidden text-gray-500 md:mt-4 md:block">
+                    Almega adalah perusahaan MLM terkemuka yang memberikan peluang luar biasa bagi Anda untuk 
+                    mencapai kebebasan finansial. Dengan dukungan komunitas yang solid, pelatihan yang 
+                    komprehensif, dan produk berkualitas tinggi, Anda dapat membangun bisnis yang menguntungkan. Gabung sekarang dan mulai perjalanan Anda menuju kesuksesan bersama Almega!
+                </p>        
+                <div class="mt-4 md:mt-8">
+                    <a href="#register" class="inline-flex items-center rounded-full bg-green-500 px-12 py-3 text-lg font-medium text-white transition duration-300 hover:bg-green-700 focus:outline-none focus:ring">
+                        <p class="mr-4">Daftar Sekarang</p> <i class="fi fi-rr-angle-right"></i>
+                    </a>
+                </div>
+                <div class="mt-4 md:mt-8 flex flex-row gap-4 items-center">
+                    <img alt="" src="assets/image/people.jpg" class="h-16 w-16 rounded-full object-cover"/>
+                    <div class="flex flex-col">
+                        <p class="text-xl font-bold text-gray-700">
+                            Almega
+                        </p> 
+                        <p class="text-lg font-normal text-gray-700/30">
+                            Top Leader Almega
+                        </p>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <video class="w-full rounded-xl" autoplay controls>
+            <source src="assets/video/hero.mp4" type="video/mp4"> 
+            Your browser does not support the video tag.
+        </video>
+    </section>
+    <!-- Image -->
+    <!-- <section id="hero" class="overflow-hidden sm:grid sm:grid-cols-2 px-10 pb-20 pt-10 items-center">
+        <div class="">
+            <div class="mr-10 ltr:sm:text-left rtl:sm:text-right">
+                <h1 class="text-3xl font-bold text-gray-900">
+                    Bergabunglah dengan Almega, Jadilah Bagian dari Komunitas Sukses dan Raih Impian Anda!
+                </h1>        
+                <p class="hidden text-gray-500 md:mt-4 md:block">
+                    Almega adalah perusahaan MLM terkemuka yang memberikan peluang luar biasa bagi Anda untuk 
+                    mencapai kebebasan finansial. Dengan dukungan komunitas yang solid, pelatihan yang 
+                    komprehensif, dan produk berkualitas tinggi, Anda dapat membangun bisnis yang menguntungkan. Gabung sekarang dan mulai perjalanan Anda menuju kesuksesan bersama Almega!
+                </p>        
+                <div class="mt-4 md:mt-8">
+                    <a href="#register" class="inline-flex items-center rounded-full bg-green-500 px-12 py-3 text-sm font-medium text-white transition duration-300 hover:bg-green-700 focus:outline-none focus:ring">
+                        <p class="mr-4">Daftar Sekarang</p> <i class="fi fi-rr-angle-right"></i>
+                    </a>
+                </div>
+                <div class="mt-4 md:mt-8 flex flex-row gap-4 items-center">
+                    <img alt="" src="assets/image/people.jpg" class="h-16 w-16 rounded-full object-cover"/>
+                    <div class="flex flex-col">
+                        <p class="text-xl font-bold text-gray-700">
+                            Almega
+                        </p> 
+                        <p class="text-lg font-normal text-gray-700/30">
+                            Top Leader Almega
+                        </p>   
+                    </div>
+                </div>
+            </div>
+        </div>      
+        <img alt="" src="assets/image/hero_image.jpg" class="h-56 w-full object-cover sm:h-full rounded-xl"/>
+    </section> -->
+
+    <!-- Bisnis Section -->
+    <section id="bisnis" class="overflow-hidden bg-green-500 mx-10 my-20 rounded-xl">
+        <div class="p-8">
+            <h2 class="text-2xl font-bold text-white mb-16 text-center">
+                Keunggulan Berbisnis dengan Almega
+            </h2> 
+            <div class="grid grid-cols-3 gap-4">
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 gap-4 hover:bg-gray-900 duration-200">
+                        <div class="flex justify-center items-center">
+                            <img alt="" src="assets/image/icon/secure-shield.png" class="h-40 w-40 rounded-md object-cover" />
+                        </div>
+                        <div class="mt-2 flex flex-col gap-4">
+                            <h3 class="text-xl font-semibold text-white text-center">
+                                Sistem Teruji dan Andal
+                            </h3>
+                            <p class="text-base font-normal text-gray-200 text-center">
+                                Model bisnis Almega telah terbukti efektif dengan hasil nyata dari ribuan mitra 
+                                yang sukses. Dengan strategi yang jelas dan terstruktur, Anda dapat memulai bisnis 
+                                dengan percaya diri.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 hover:bg-gray-900 gap-4 duration-200">
+                        <div class="flex justify-center items-center">
+                            <img alt="" src="assets/image/icon/community-engagement.png" class="h-40 w-40 rounded-md object-cover" />
+                        </div>
+                        <div class="mt-2 flex flex-col gap-4">
+                            <h3 class="text-xl font-semibold text-white text-center">
+                                Dukungan Komunitas yang Kuat
+                            </h3>
+                            <p class="text-base font-normal text-gray-100 text-center">
+                                Bergabunglah dengan komunitas yang solid dan mendukung. Kami memastikan Anda 
+                                memiliki akses ke mentor berpengalaman dan jaringan mitra yang siap membantu 
+                                Anda berkembang.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 hover:bg-gray-900 gap-4 duration-200">
+                        <div class="flex justify-center items-center">
+                            <img alt="" src="assets/image/icon/training.png" class="h-40 w-40 rounded-md object-cover" />
+                        </div>
+                        <div class="mt-2 flex flex-col gap-4">
+                            <h3 class="text-xl font-semibold text-white text-center">
+                                Pelatihan Profesional
+                            </h3>
+                            <p class="text-base font-normal text-gray-100 text-center">
+                                Kami menawarkan pelatihan yang dirancang untuk membangun keahlian Anda di bidang 
+                                penjualan, pemasaran, dan manajemen bisnis, diajarkan oleh ahli yang memahami 
+                                pasar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 hover:bg-gray-900 gap-4 duration-200">
+                        <div class="flex justify-center items-center">
+                            <img alt="" src="assets/image/icon/high-quality.png" class="h-40 w-40 rounded-md object-cover" />
+                        </div>
+                        <div class="mt-2 flex flex-col gap-4">
+                            <h3 class="text-xl font-semibold text-white text-center">
+                                Produk Berkualitas Tinggi
+                            </h3>
+                            <p class="text-base font-normal text-gray-100 text-center">
+                                Jual produk yang tidak hanya diminati pasar tetapi juga memberikan manfaat nyata 
+                                bagi konsumen, meningkatkan kepercayaan dan loyalitas pelanggan.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 hover:bg-gray-900 gap-4 duration-200">
+                        <div class="flex justify-center items-center">
+                            <img alt="" src="assets/image/icon/thumbs-up.png" class="h-40 w-40 rounded-md object-cover" />
+                        </div>
+                        <div class="mt-2 flex flex-col gap-4">
+                            <h3 class="text-xl font-semibold text-white text-center">
+                                Penghargaan dan Insentif Menarik
+                            </h3>
+                            <p class="text-base font-normal text-gray-100 text-center">
+                                Almega menyediakan berbagai penghargaan, bonus, dan insentif bagi mitra yang 
+                                berprestasi, membuat usaha Anda semakin menguntungkan dan memotivasi untuk 
+                                meraih lebih.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 hover:bg-gray-900 gap-4 duration-200">
+                        <div class="flex justify-center items-center">
+                            <img alt="" src="assets/image/icon/working-hours.png" class="h-40 w-40 rounded-md object-cover" />
+                        </div>
+                        <div class="mt-2 flex flex-col gap-4">
+                            <h3 class="text-xl font-semibold text-white text-center">
+                                Fleksibilitas dan Kebebasan Waktu
+                            </h3>
+                            <p class="text-base font-normal text-gray-100 text-center">
+                                Kelola bisnis Anda sesuai jadwal Anda. Almega memberikan fleksibilitas untuk 
+                                membangun bisnis Anda tanpa mengorbankan kehidupan pribadi Anda.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="video" class="overflow-hidden bg-white mx-10 mt-20 rounded-xl">
+        <div class="p-20">
+            <video class="w-full h-auto rounded-xl" autoplay controls>
+                <source src="assets/video/video1.mp4" type="video/mp4"> 
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Produk Section -->
+    <section id="produk" class="overflow-hidden mx-10 pb-20">
+        <div class="p-8">
+            <div class="flex flex-row w-full mb-16">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 w-1/2">
+                    Produk Berkualitas Terbaik 
+                </h2> 
+                <p class="text-base font-normal text-gray-400 w-1/2">
+                    Almega menawarkan rangkaian produk unggulan yang dirancang untuk memberikan hasil nyata dan 
+                    memuaskan kebutuhan pelanggan. Dengan fokus pada kualitas dan inovasi, setiap produk kami 
+                    mendukung Anda dalam membangun bisnis yang berkelanjutan dan terpercaya.
+                </p>
+            </div>
+            <div class="grid grid-cols-4 gap-4">
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 bg-white">
+                        <img alt="" src="assets/image/produk/WhatsApp Image 2024-11-04 at 13.23.57 (2).jpeg" class="h-full w-full rounded-md object-cover" />
+                        <div class="mt-2">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 bg-white">
+                        <img alt="" src="assets/image/produk/WhatsApp Image 2024-11-04 at 13.23.57.jpeg" class="h-full w-full rounded-md object-cover" />
+                        <div class="mt-2">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 bg-white">
+                        <img alt="" src="assets/image/produk/WhatsApp Image 2024-11-04 at 13.23.58 (2).jpeg" class="h-full w-full rounded-md object-cover" />
+                        <div class="mt-2">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-cols-1">
+                    <div class="block rounded-lg p-4 bg-white">
+                        <img alt="" src="assets/image/produk/WhatsApp Image 2024-11-04 at 13.23.59.jpeg" class="h-full w-full rounded-md object-cover" />
+                        <div class="mt-2">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register CTA Section -->
+    <section id="register" class="overflow-hidden bg-green-500 px-10 my-10 flex flex-col justify-center text-center">
+        <div class="p-8">
+            <h2 class="text-3xl font-bold text-white">
+                Mari Bergabung dan Berbisnis Bersama Almega
+            </h2>        
+            <p class="hidden text-gray-100 md:block my-5">
+                Isi formulir pendaftaran. Lengkapi data diri Anda dengan benar untuk memulai proses bergabung.
+            </p> 
+            <form action="#" class="mx-auto max-w-md space-y-4">
+                <div>
+                    <label for="email" class="sr-only">Nama</label>        
+                    <div class="relative py-1">
+                        <input type="email" class="w-full rounded-lg border border-white p-4 pe-12 text-sm shadow-sm" placeholder="Enter Name" />
+                    </div>
+                    <label for="email" class="sr-only">Email</label>        
+                    <div class="relative py-1">
+                        <input type="email" class="w-full rounded-lg border border-white p-4 pe-12 text-sm shadow-sm" placeholder="Enter Email" />
+                    </div>
+                    <label for="email" class="sr-only">WhatsApp</label>        
+                    <div class="relative py-1">
+                        <input type="email" class="w-full rounded-lg border border-white p-4 pe-12 text-sm shadow-sm" placeholder="Enter WhatsApp" />
+                    </div>
+                    <label for="email" class="sr-only">Alamat</label>        
+                    <div class="relative">
+                        <input type="email py-1" class="w-full rounded-lg border border-white p-4 pe-12 text-sm shadow-sm" placeholder="Enter Address" />
+                    </div>
+                </div>        
+                <div class="flex items-center justify-between">        
+                    <button type="submit" class="inline-block rounded-lg bg-white hover:bg-black/10 duration-300 px-5 py-3 text-sm font-medium text-green-500" >
+                        Daftar
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section id="testimoni" class="overflow-hidden px-10 py-20 rounded-xl">
+        <h2 class="text-2xl font-bold text-gray-900 mb-16">
+            Testimoni
+        </h2>
+        <div class="mt-8 grid gap-4 grid-cols-3 md:gap-8">
+            <blockquote class="rounded-lg bg-white p-6 shadow-sm sm:p-8">
+                <div class="flex items-center gap-4">
+                    <img alt="" src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" class="h-10 w-10 rounded-full object-cover" />
+                    <div>   
+                        <p class="mt-0.5 text-lg font-medium text-gray-700">Paul Starr</p>
+                    </div>
+                </div>      
+                <p class="my-4 text-gray-400">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
+                    consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
+                    error officiis atque voluptates magnam!
+                </p>
+                <video class="w-auto h-auto" autoplay controls>
+                    <source src="assets/video/testi1.mp4" type="video/mp4"> 
+                    Your browser does not support the video tag.
+                </video>
+            </blockquote>
+            <blockquote class="rounded-lg bg-white p-6 shadow-sm sm:p-8">
+                <div class="flex items-center gap-4">
+                    <img alt="" src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" class="h-10 w-10 rounded-full object-cover" />
+                    <div>   
+                        <p class="mt-0.5 text-lg font-medium text-gray-700">Paul Starr</p>
+                    </div>
+                </div>      
+                <p class="my-4 text-gray-400">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
+                    consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
+                    error officiis atque voluptates magnam!
+                </p>
+                <video class="w-auto h-auto" autoplay controls>
+                    <source src="assets/video/testi2.mp4" type="video/mp4"> 
+                    Your browser does not support the video tag.
+                </video>
+            </blockquote>
+            <blockquote class="rounded-lg bg-white p-6 shadow-sm sm:p-8">
+                <div class="flex items-center gap-4">
+                    <img alt="" src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80" class="h-10 w-10 rounded-full object-cover" />
+                    <div>   
+                        <p class="mt-0.5 text-lg font-medium text-gray-700">Paul Starr</p>
+                    </div>
+                </div>      
+                <p class="my-4 text-gray-400">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
+                    consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
+                    error officiis atque voluptates magnam!
+                </p>
+                <video class="w-auto h-auto" autoplay controls>
+                    <source src="assets/video/testi1.mp4" type="video/mp4"> 
+                    Your browser does not support the video tag.
+                </video>
+            </blockquote>
+        </div>
+    </section>   
+
+    <!-- FAQ Section -->
+    <section id="faq" class="overflow-hidden bg-white px-10 my-20">
+        <div class="px-8 py-20">
+            <h2 class="text-2xl font-bold text-gray-700 mb-10 text-center">
+                Frequently Answer Question
+            </h2>
+            <div class="tab w-full overflow-hidden border-b bg-gray-200 border-gray-700">
+                <input class="absolute opacity-0 " id="tab-multi-one" type="radio" name="tabs">
+                <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-one">Bagaimana Cara Bergabung?</label>
+                <div class="tab-content overflow-hidden border-l-2 bg-gray-200 border-black leading-normal">
+                    <ul class="p-8">
+                        <li class="my-1">
+                            Isi Formulir Pendaftaran: Daftar secara online melalui form di bawah ini
+                        </li>
+                        <li class="my-1">
+                            Mulai Pelatihan: Jika lolos, Anda akan memulai pelatihan intensif selama 3 bulan.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab w-full overflow-hidden border-b bg-gray-200 border-gray-700">
+                <input class="absolute opacity-0 " id="tab-multi-two" type="radio" name="tabs">
+                <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-two">Siapa yang Cocok untuk Program Ini?</label>
+                <div class="tab-content overflow-hidden border-l-2 bg-gray-200 border-black leading-normal">
+                    <ul class="p-8">
+                        <li class="my-1">
+                            Pemula yang ingin memulai karir di dunia barbershop. 
+                        </li>
+                        <li class="my-1">
+                            Stylist yang ingin meningkatkan keterampilan potong rambut pria.
+                        </li>
+                        <li class="my-1">
+                            Siapapun yang tertarik belajar dan membuka usaha barbershop sendiri.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tab w-full overflow-hidden border-b bg-gray-200 border-gray-700">
+                <input class="absolute opacity-0 " id="tab-multi-three" type="radio" name="tabs">
+                <label class="block p-5 leading-normal cursor-pointer" for="tab-multi-three">Bagaimana Cara Bergabung?</label>
+                <div class="tab-content overflow-hidden border-l-2 bg-gray-200 border-black leading-normal">
+                    <ul class="p-8">
+                        <li class="my-1">
+                            Isi Formulir Pendaftaran: Daftar secara online melalui form di bawah ini
+                        </li>
+                        <li class="my-1">
+                            Mulai Pelatihan: Jika lolos, Anda akan memulai pelatihan intensif selama 3 bulan.
+                        </li>
+                    </ul>
+                </div>
+            </div>            
+        </div>
+    </section>    
+
+     <!-- Schedule Section -->
+     <section id="jadwal" class="overflow-hidden px-10 my-20 rounded-xl flex flex-col justify-center text-center">
+        <h2 class="text-3xl font-bold text-gray-700">
+            Daftar Sekarang dan Ikutilah Pelatihan Bisnis Daring
+        </h2>
+        <p class="text-2xl font-semibold text-gray-700 mt-4">
+            rutin setiap
+        </p> 
+        <div class="inline-flex flex-row text-center justify-center my-5 px-5">
+            <p class="text-2xl font-semibold text-white my-2 mr-1 bg-green-500 rounded-xl p-2">
+                Sabtu
+            </p> 
+            <p class="text-2xl font-semibold text-green-500 my-2 m-1 p-2">
+                :
+            </p> 
+            <p class="text-2xl font-semibold text-white my-2 ml-1 bg-green-500 rounded-xl p-2">
+                10.00 WIB
+            </p> 
+        </div>
+        <div class="">
+            <a href="#register" class="inline-flex items-center rounded-full bg-green-500 px-8 py-3 text-lg font-medium text-white transition duration-300 hover:bg-green-300 focus:outline-none focus:ring">
+                <p class="mr-4">Daftar Sekarang</p> <i class="fi fi-rr-angle-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Contact -->
+    <footer id="contact" class="bg-green-800 overflow-hidden" aria-label="Site Footer">
+        <div class="mx-auto max-w-5xl px-10 pt-20 pb-5 text-white">            
+            <h2 class="text-2xl font-semibold md:text-4xl text-center">
+                Almega Indonesia
+            </h2>
+            <div class="flex">
+                <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-200">
+                    Lokasi Pelatihan
+                    <a target="_blank" href="https://maps.app.goo.gl/Ko9T1eB8f2dAkw5Y7" class="block text-2xl font-medium text-greenfood hover:opacity-75 sm:text-3xl">Suryatmajan, Kota Yogyakarta</a>
+                </p>
+                <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-200">
+                    WhatsApp
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=6200003333" class="block text-2xl font-medium text-greenfood hover:opacity-75 sm:text-3xl">00003333</a>
+                </p>
+                <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-200">
+                    Email Us
+                    <a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=contact@email.com" class="block text-2xl font-medium text-greenfood hover:opacity-75 sm:text-3xl">contact@email.com</a>
+                </p>
+            </div>
+            <ul class="mt-12 flex justify-center gap-6 md:gap-8">
+                <li>
+                    <a href="https://www.facebook.com/" rel="noreferrer" target="_blank" class="text-greenfood transition hover:opacity-75">
+                        <span class="sr-only">Facebook</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" clip-rule="evenodd" 
+                        d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
+                        </svg>
+                    </a>
+                </li>        
+                <li>
+                    <a href="https://www.instagram.com/" rel="noreferrer" target="_blank" class="text-greenfood transition hover:opacity-75">
+                        <span class="sr-only">Instagram</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            fill-rule="evenodd" clip-rule="evenodd"
+                            d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/" rel="noreferrer" target="_blank" class="text-greenfood transition hover:opacity-75">
+                        <span class="sr-only">Twitter</span>
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true" >
+                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-200">
+                &copy; Copyright All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+</body>
+
+<script type="text/javascript">
+    const button = document.querySelector('#menu-button');
+    const menu = document.querySelector('#menu');
+    button.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+    });
+</script>
+
+</html>
